@@ -1,0 +1,2182 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css"
+			rel="stylesheet"/> -->
+
+		
+
+		
+
+
+			<title>VLMI Интернет-безопасность, обмен приватной информацией</title>
+	</head>
+	<body>
+
+		<!-- ........Header Start........ -->
+		<header>
+			<!-- ........Navbar Start........ -->
+
+			<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+			  <a class="navbar-brand" href="indexlogin.html">
+			  	<img src="logo/logo.gif" alt="logo.gif">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse nav_col_left" id="navbarNavDropdown">
+			    <ul class="navbar-nav">
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          FAQ/Правила
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Гарант сервис
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Пользователи
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Другое
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          <a class="dropdown-item" href="#">Action</a>
+			          <a class="dropdown-item" href="#">Another action</a>
+			          <a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-ruble-sign"></i> Реклама</a>
+			      </li>
+			    </ul>  
+			  </div>
+			   <div class="collapse navbar-collapse nav_col_right " id="navbarNavDropdown">
+			    <ul class="navbar-nav">
+			    	<li class="nav-item myDropDown">
+			        <a class="nav-link" href="#" >
+			        	<i class="fas fa-hospital-symbol"></i>
+			          Ham Yan
+			        </a>
+			        
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="far fa-envelope"></i> </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#"><i class="fas fa-search"></i> </a>
+			      </li>
+			    </ul>  
+			  </div>
+			   
+
+				
+			</nav>
+			<!-- ........Navbar END........ -->
+					<div class="dbb hide" >
+			        	<ul class="nav nav-tabs" id="myTab" role="tablist">
+						  <li class="nav-item">
+						    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Ваш аккаунт</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Закладки</a>
+						  </li>
+						  
+						</ul>
+						<div class="tab-content" id="myTabContent">
+						  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						  	<div class="row">
+				        		<div class="col-4">
+				        			<i class="fas fa-hospital-symbol drop_down_user_icon"></i>
+				        		</div>
+				        		<div class="col-8 drop_down_user_top">
+				        			<br>
+				        			<a href="">Ham Yan</a><br><br>
+				        			<p>Сообщения:</p>
+				        			<p>Реакции:</p>
+				        			<p>Баллы:</p>
+				        		</div>
+				        		<div class="col-6">
+				        			<div class="drop_down_user_main">Вашы публикации</div>
+				        			<div class="drop_down_user_main">Полученные реакции</div>
+				        			<div class="drop_down_user_main">Информация</div>
+				        			<div class="drop_down_user_main">Безопасность</div>
+				        			<div class="drop_down_user_main">Конфиденциальность</div>
+				        			<div class="drop_down_user_main">Настройки</div>
+				        			<div class="drop_down_user_main">Подпись</div>
+				        			<div class="drop_down_user_main"></div>
+				        		</div>
+				        		<div class="col-6">
+				        			<div class="drop_down_user_main">Выигранные розыгрыши</div>
+				        			<div class="drop_down_user_main"></div>
+				        			<div class="drop_down_user_main">Платное повышение</div>
+				        			<div class="drop_down_user_main">Связанные учётные записи</div>
+				        			<div class="drop_down_user_main">Подписки</div>
+				        			<div class="drop_down_user_main">Игнорирование</div>
+				        			<div class="drop_down_user_main">Популярные темы</div>
+				        		</div>
+				        		<div class="col-12">
+				        			<div class="drop_down_user_main"><a href="index.html" class="drop_down_user_main_a">Выйти</a></div>
+				        		</div>
+				        	</div>
+						  </div>
+						  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						  	<div class="row">
+						  		<div class="col-12">
+						  			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Фильтрация по тегам">
+						  			<p>Вы пока не добавили ни одной закладки.</p>
+						  			<a href="" class="drop_down_user_main_a">Показать все...</a>
+						  		</div>
+						  	</div>
+						  </div>
+						  
+						</div>
+					</div>		
+
+			        	
+			        
+			<!-- ........Responsive Navbar Start........ -->
+			<!-- ........Responsive Navbar Start........ -->
+			
+		</header>
+		<!-- ........Header END........ -->
+		<!-- ........Main START........ -->
+		<main>
+			<div class="main container-fluid">
+				<section class="section1">
+					<div class="row row1">
+						<div class="col-12">
+							<p>VLMI - теневой форум по обмену информацией. На форуме можете найти способы заработка, информация о том, как не попасться на удочку "мошенников", рассказываем про их "схемы" и как они работают, программирование, курсы/сливы.</p>
+						</div>
+						
+						<!-- <div class="row row2">	 -->
+						
+						<div class="col-6 offset-4">
+							<span><p>После регистрации будут доступны основные разделы.</p></span>
+						</div>
+						
+						<!-- </div> -->
+						<!-- <div class="row">	 -->
+						<div class="col-12">
+							<p>Контент форума создают пользователи, администрация за действия пользователей не несёт ответственности,<span> отказ от ответственности.</span> Так же перед использованием форума необходимо ознакомиться с <span>правилами ресурса.</span>	 Продолжая использовать ресурс вы соглашаетесь с правилами.</p>
+						</div>
+					</div>
+				</section>
+				<section class="section2">
+					<div class="row section2_row">
+						
+						<div class="realy-info row">
+											<div class="col-12 first_adw">
+												<img src="https://i.imgur.com/cpTHXuW.gif" alt="">
+											</div>	
+										</div>
+
+
+					</div>
+				</section>
+				<section class="section3">
+					<nav>
+					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+					    <a class="nav-item nav-link active tiv_a" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">1</a>
+					    <a class="nav-item nav-link tiv_a" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2</a>
+					    <a class="nav-item nav-link tiv_a" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">3</a>
+					  </div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+					  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					  	<div class="container-fluid reklam_container">
+					  		<!-- first_rows Start -->
+					  		<div class="row first_row1">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top cimg" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<!-- <p>Всем доброго времени суток. Если вы зашли в эту тему, у вас есть что нам предложить.</p><br><br>
+					  				<p>Данный сервис помогает вскрыть и снять coins с ваших файлов wallet.dat.</p><br><br> -->
+					  				<span style="font-size: 18px">Всем доброго времени суток. Если вы зашли в эту тему, у вас есть что нам предложить.<br />
+									<br />
+									Данный сервис помогает вскрыть и снять <span style="color: #80ff00">coins</span> с ваших файлов <span style="color: #80ff00">wallet.dat</span>.<br />
+									<br />
+									<span style="color: #80ff00"><b>Берем в работу мнемоник фразы от </b></span><span style="color: rgb(247, 218, 100)"><b>Trezor</b></span><span style="color: #80ff00"><b> и </b></span><span style="color: rgb(247, 218, 100)"><b>Ledger</b></span><span style="color: #80ff00"><b>.<br />
+									А так же мнемоники и приват ключи от многих монет.<br />
+									Обработка API ключей бирж.<br />
+									Работаем с 400+ видами монет.</b></span><br />
+									<br />
+									<span style="font-size: 18px"><span style="color: rgb(184, 49, 47)"><b>ПОЯВИЛИСЬ ФЭЙКИ ТЕЛЕГИ. ПОДТВЕРЖДЕНИЕ ЧЕРЕЗ ЛС ФОРУМА<br />
+									<br />
+									Мы никогда не просим денег с клиентов!!!</b></span></span><br />
+									<br />
+									<span style="color: #ffff00">Если сумма </span><span style="color: #80ff00">меньше 50$</span><span style="color: #ffff00"> - то выведем вам без процентов.</span><br />
+									<span style="color: rgb(255, 255, 0)">Если сумма </span><span style="color: #80ff00">больше 50$ </span><span style="color: #ffff00">- наши </span><span style="color: #80ff00">50%</span><span style="color: #ffff00">.<br />
+									<br />
+									Вероятность вскрытия - </span><span style="color: #80ff00">90% </span><br />
+									<span style="color: #ffff00">Вероятность вывода средств после вскрытия - </span><span style="color: #80ff00">75%<br />
+									<br />
+									<br />
+									Контакты: </span></span><a href="https://t.me/robertlutece" target="_blank" class="link link--external" rel="nofollow noopener"><span style="font-size: 18px"><span style="color: #80ff00">@RobertLutece</span></span></a><br />
+									<span style="font-size: 18px"><span style="color: #80ff00">Саппорт: в отпуске</span></span><br />
+									<br />
+									<br />
+									<span style="color: rgb(184, 49, 47)"><b><span style="font-size: 22px">Любые другие контакты - фэйк</span><br />
+									<br />
+									<span style="font-size: 22px">Если вы купили логи - почти со 100% вероятностью все валлеты пустые.</span><br />
+									<span style="font-size: 22px">С покупными работать желания нет, так что либо очень долго будем обрабатывать, либо не беремся вообще. Зависит от загруженности.</span></b></span><br />
+									<br />
+									<br />
+									<br />
+									<span style="font-size: 18px"><span style="color: #80ff00"><b>Так же можем взять в работу то чего у нас нет в списке, только сроки вскрытия будут увеличены.</b></span></span><br />
+									<br />
+									<br />
+									<br />
+									<br />
+									<br />
+
+					  			</div>	
+					  		</div>
+					  		
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<!-- first_rows End -->
+					  	</div>
+					  </div>
+					  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+					  	<!-- first_rows Start -->
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<!-- first_rows End -->
+					  </div>
+					  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						  	<!-- first_rows Start -->
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="row first_row">
+					  			<div class="col-2 reklam_first_card">
+					  				<div class="my_card">
+					  					<div class="my_card_name">
+					  						<a href="">Robert Lutece</a>
+					  					</div>
+						  				<div class="card" style="width: 11rem;">
+										  <img class="card-img-top" src="photo/Untitled design.png" alt="Card image cap">
+										  <div class="card-body">
+										    <p class="card-text">
+										    	<div class="row">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div> 
+										    	<div class="row card_emoj">
+										    		<div class="col-4 card-emoj_left">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_center">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    		<div class="col-4 card-emoj_right">
+										    			<dt><i class="far fa-comments"></i></dt>
+										    			<dd>103</dd>
+										    		</div>
+										    	</div>
+										  </div>
+										</div>
+									</div>
+									<div class="reklam_first_card_hover">
+										<div class="row reklam_hover_row1">
+											<div class="col-3">
+												<img src="photo/Untitled design.png" style="height: 100px;" alt="">
+											</div>
+											<div class="col-5">
+												<a href="">Robert Lutece</a>
+												<div class="row" style="margin-top: 10px;">
+										    		<div class="col-5 card-text_left">
+										    			МЕСТНЫЙ
+										    		</div>
+										    		<div class="col-7 card-text_right">
+										    			VLMI.IO
+										    		</div>
+										    	</div>
+												<p style="font-size: 10px;margin-top: 10px;">Регистрация 24 Окт 2017 Активность 4 Ноя 2020</p>
+											</div>
+											<div class="col-4">
+												
+											</div>
+										</div>
+										<div class="row reklam_hover_row2">
+											<div class="col-1"></div>
+											<div class="col-2">
+												<dd>Депозит</dd>
+												<dt>15000</dt>
+											</div>
+											<div class="col-2">
+												<dd>Времени онлайн</dd>
+												<dt>12д 14ч 52м</dt>
+											</div>
+											<div class="col-2">
+												<dd>Сообщения</dd>
+												<dt>103</dt>
+											</div>
+											<div class="col-2">
+												<dd>Реакции</dd>
+												<dt>121</dt>
+											</div>
+											<div class="col-2">
+												<dd>Баллы</dd>
+												<dt>422</dt>
+											</div>
+											<div class="col-1"></div>
+										</div>
+									</div>
+					  			</div>
+					  			<div class="col-10 reklam_first_content">
+					  				<div class="row reklam_first_content_top">
+					  					<div class="col-2">
+					  						<a href="">18 Авг 2018</a>
+					  					</div>
+					  					<div class="col-9"></div>
+					  					<div class="col-1">
+					  						<i class="fas fa-share-alt"></i>
+					  						<i>#2</i>
+					  					</div>
+					  				</div>
+					  				<div class="row reklam_first_content_center">
+					  					<div class="col-md-1">
+					  						<i class="fas fa-exclamation-triangle"></i>
+					  					</div>
+					  					<div class="col-md-6">
+					  						<p>Please note, if you want to make a deal with this user, that it is blocked.</p>
+					  					</div>
+					  					<div class="col-5"></div>
+					  				</div>
+					  				<div class="row reklam_first_content_bottom">
+					  					<p>вам надо давать только сам валет или другие данные тоже?</p>
+					  				</div>
+					  				<div class="row reklam_first_content_footer">
+					  					<div class="col-1">
+					  						<i class="fas fa-thumbs-up"></i>
+					  					</div>
+					  					<div class="col-11">
+					  						<a href="">На это отреагировали LFCIV, Почтальон, Unbelievable и ещё 1 человек</a>
+					  					</div>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<!-- first_rows End -->
+					  </div>
+					</div>  
+					<nav>
+					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+					    <a class="nav-item nav-link active tiv_a" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">1</a>
+					    <a class="nav-item nav-link tiv_a" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2</a>
+					    <a class="nav-item nav-link tiv_a" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">3</a>
+					  </div>
+					</nav>
+				</section>
+				<section class="section4">
+					<div class="row text_area_part">
+						<div class="col-md-2 text_area_left_row">
+							<i class="fas fa-hospital-symbol"></i>
+						</div>
+						
+						<div class="col-md-10 text_area_right_row">
+							<textarea id="editor1" name="editor1"></textarea>
+				<script src="ckeditor/ckeditor.js"></script>			
+                <script>
+                	//               CKEDITOR.replace( 'editor1' , {
+			       //  						extraPlugins: 'emoji'
+										// });
+										CKEDITOR.replace( 'editor1' );
+                </script>
+						</div>
+					</div>
+				</section>
+				
+					
+				
+		</main>
+		
+		<!-- ........Main END........ -->
+	<!-- ........Footer START........ -->
+	  <!-- Site footer -->
+	    <footer class="site-footer">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-sm-12 col-md-6">
+	            <h6>About</h6>
+	            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+	          </div>
+
+	          <div class="col-xs-6 col-md-3">
+	            <h6>Categories</h6>
+	            <ul class="footer-links">
+	              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+	              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+	              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+	              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+	              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+	              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+	            </ul>
+	          </div>
+
+	          <div class="col-xs-6 col-md-3">
+	            <h6>Quick Links</h6>
+	            <ul class="footer-links">
+	              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+	              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+	              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+	              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+	              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+	            </ul>
+	          </div>
+	        </div>
+	        <hr>
+	      </div>
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-md-8 col-sm-6 col-xs-12">
+	            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+	         <a href="#">Ham Yan</a>.
+	            </p>
+	          </div>
+
+	          <div class="col-md-4 col-sm-6 col-xs-12">
+	            <ul class="social-icons">
+	              <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+	              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+	              <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+	              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	</footer>		
+
+			
+	<!-- ........Footer END........ -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<!-- MDB -->
+	
+	<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.js"
+	></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
